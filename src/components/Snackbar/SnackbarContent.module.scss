@@ -1,0 +1,53 @@
+.SnackbarContent {
+  min-width: 300px;
+  max-width: 500px;
+  color: #456c76;
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.SnackbarShowAddress {
+  background-color: rgb(250, 250, 250);
+}
+
+.SnackbarContent__MessageBlock {
+  display: flex;
+  align-items: center;
+}
+
+.SnackbarContent__VariantIcon {
+  background-color: transparent;
+}
+
+.SnackbarContent__CloseButton {
+  margin-left: 20px;
+  margin-top: 2px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.SnackbarContent__CloseButton:hover {
+  opacity: 0.6;
+}
+
+.SnackbarContent__CloseButtonIcon {
+  background-color: transparent;
+  color: #456c76;
+  margin-left: 15px;
+}
+
+.SnackbarContent__IconBox {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.SnackbarContent__Message {
+  line-height: 21px;
+}
